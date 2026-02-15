@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Study Sprint Coach</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="header">
+        <h1>Study Sprint Coach</h1>
+        <p>Workers AI (Llama 3.3) + Durable Object memory • Chat + optional voice</p>
+      </header>
+
+      <section class="controls">
+        <input id="goal" placeholder="Set sprint goal (e.g., 'Finish Math HW 3 #1-4')" />
+        <button id="setGoal">Set Goal</button>
+        <button id="reset">Reset Memory</button>
+      </section>
+
+      <section id="chat" class="chat"></section>
+
+      <form id="form" class="composer">
+        <input id="input" placeholder="Type a message…" autocomplete="off" />
+        <button type="submit">Send</button>
+        <button type="button" id="mic">🎤</button>
+      </form>
+
+      <small id="hint"></small>
+      <small id="meta"></small>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

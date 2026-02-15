@@ -1,0 +1,20 @@
+{
+  "name": "cf-ai-study-sprint-coach-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-03-07",
+
+  "ai": { "binding": "AI" },
+
+  "durable_objects": {
+    "bindings": [
+      { "name": "CHAT_ROOMS", "class_name": "ChatRoomDO" }
+    ]
+  },
+
+  "migrations": [
+    {
+      "tag": "v2",
+      "new_sqlite_classes": ["ChatRoomDO"]
+    }
+  ]
+}
