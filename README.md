@@ -136,7 +136,7 @@ Prompts used during development are included in PROMPTS.md.
 
 ---
 
-## 👤 Author
-
-Jyotir Sompalli  
-Georgia Tech Computer Science
+## Author
+Jyotir Sompalli
+Georgia Tech CS: 2023-2027
+Email: jsompalli7@gatech.edu
