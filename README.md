@@ -1,4 +1,4 @@
-# cf_ai_study_sprint_coach
+# Study Sprint Coach
 
 Cloudflare SWE Optional Assignment  
 AI-powered Study Sprint Coach built on Cloudflare.
