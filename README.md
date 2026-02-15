@@ -68,7 +68,7 @@ Memory / State
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 cf_ai_study_sprint_coach/
 
