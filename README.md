@@ -5,7 +5,7 @@ AI-powered Study Sprint Coach built on Cloudflare.
 
 ---
 
-## 🚀 Live Deployment
+## Live Deployment
 
 Frontend (Cloudflare Pages)  
 https://cf-ai-study-sprint-coach.pages.dev/
@@ -15,7 +15,7 @@ https://cf-ai-study-sprint-coach-worker.jsompalli7.workers.dev
 
 ---
 
-## 🧠 Overview
+## Overview
 
 Study Sprint Coach is an AI-powered productivity assistant that helps students:
 
@@ -28,7 +28,7 @@ The system uses Cloudflare-native AI infrastructure and persistent state via Dur
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 Browser (Cloudflare Pages)  
 → Worker API  
@@ -57,7 +57,7 @@ Memory / State
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Cloudflare Workers  
 - Workers AI (Llama 3.3)  
@@ -90,7 +90,7 @@ README.md
 
 ---
 
-## 🧪 Local Development
+## Local Development
 
 Run Worker locally:
 
@@ -105,7 +105,7 @@ npx serve .
 
 ---
 
-## 🧩 Example Usage
+## Example Usage
 
 User input:
 
@@ -120,7 +120,7 @@ Response includes:
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Each session is isolated via Durable Object instance  
 - Worker routes requests using the `?session=` parameter  
@@ -129,7 +129,7 @@ Response includes:
 
 ---
 
-## 🧠 AI Assistance Disclosure
+## AI Assistance Disclosure
 
 AI-assisted development was used in building this project.  
 Prompts used during development are included in PROMPTS.md.
